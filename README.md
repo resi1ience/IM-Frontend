@@ -55,8 +55,7 @@ The frontend provides the user interface for interacting with the IM system. It 
 
 1.  Clone the repository:
     ```bash
-    git clone [your-repository-url]
-    cd [repository-folder-name]
+    git clone https://github.com/resi1ience/IM-Frontend
     ```
 2.  Install dependencies:
     ```bash
@@ -67,7 +66,7 @@ The frontend provides the user interface for interacting with the IM system. It 
 
 ### Running the Development Server
 
-1.  **Configure Backend API:** Ensure the application knows where to find the backend API. This might be via an environment variable (`.env` file) or a configuration file (e.g., `src/config.js`). Update the backend API URL placeholder.
+1.  **Configure Backend API:** 
     ```
     # Example .env file
     VITE_API_BASE_URL=http://localhost:8080/api
